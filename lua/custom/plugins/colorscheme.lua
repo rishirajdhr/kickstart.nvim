@@ -1,5 +1,5 @@
 return {
-  'catpuccin/nvim',
+  'catppuccin/nvim',
   priority = 1000,
   name = 'catppuccin',
   config = function()
