@@ -4,3 +4,5 @@ local config = {
 }
 
 require('jdtls').start_or_attach(config)
+
+vim.opt.colorcolumn = '101'
