@@ -18,6 +18,8 @@ return {
     formatters_by_ft = {
       lua = { 'stylua' },
       java = { 'google-java-format' },
+      javascript = { 'prettier' },
+      typescript = { 'prettier' },
     },
     default_format_opts = {
       lsp_format = 'fallback',

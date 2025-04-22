@@ -7,7 +7,9 @@ return {
       local lint = require 'lint'
       lint.linters_by_ft = {
         java = { 'checkstyle' },
-        markdown = { 'markdownlint' },
+        -- markdown = { 'markdownlint' },
+        javascript = { 'eslint' },
+        typescript = { 'eslint' },
       }
 
       local checkstyle = lint.linters.checkstyle
